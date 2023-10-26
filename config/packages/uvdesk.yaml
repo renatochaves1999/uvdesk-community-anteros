@@ -16,7 +16,11 @@ parameters:
     upload_max_filesize: 2097152
 
 uvdesk:
+
     site_url: 'https://suporte.pitweb.pt/'
+
+    site_url: 'suporte.pitweb.pt'
+
     upload_manager:
         id: Webkul\UVDesk\CoreFrameworkBundle\FileSystem\UploadManagers\Localhost
     
