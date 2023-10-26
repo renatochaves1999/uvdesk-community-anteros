@@ -8,7 +8,7 @@ parameters:
 
     uvdesk_site_path.member_prefix: uvadmin
     uvdesk_site_path.knowledgebase_customer_prefix: suporte
-
+    
     # File uploads constraints
     # @TODO: Set these parameters via compilers
     max_post_size: 8388608
@@ -16,11 +16,14 @@ parameters:
     upload_max_filesize: 2097152
 
 uvdesk:
-    site_url: 'suporte.pitweb.pt'
+    site_url: 'suporte.pitweb.pt/public'
     upload_manager:
         id: Webkul\UVDesk\CoreFrameworkBundle\FileSystem\UploadManagers\Localhost
     
-    support_email: ~
+    support_email:
+        id: anteros.suporte@gmail.com
+        name: AE Suporte
+        mailer_id: Gmail
     
     # Default resources
     default:
