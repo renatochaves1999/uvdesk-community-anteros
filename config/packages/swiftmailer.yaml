@@ -1,11 +1,2 @@
 swiftmailer:
-    default_mailer: mailer_0326
-    mailers:
-        mailer_0326:
-            transport: gmail
-            username: anteros.suporte@gmail.com
-            password: dmZlbCBzYnh0IHhza2Qgcmtpdg==
-            # sender_address: ~
-            # delivery_addresses: ~
-            disable_delivery: false
 
