@@ -23,7 +23,7 @@ uvdesk_mailbox:
         #     # Outgoing email settings
         #     # Mailer settings to use for sending emails from mailbox
         #     smtp_server:
-        #         host: ~
+        #         host: 
         #         port: ~
         #         client: ~
         #         type: ~
