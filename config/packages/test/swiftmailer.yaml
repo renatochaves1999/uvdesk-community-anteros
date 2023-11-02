@@ -1,2 +1,15 @@
 swiftmailer:
-    disable_delivery: true
+    default_mailer: mailer_7829
+    mailers:
+        mailer_7829:
+            transport: gmail
+            username: suporte@anteros.pt
+            password: dmZlbCBzYnh0IHhza2Qgcmtpdg==
+            # sender_address: ~
+            # delivery_addresses: ~
+            disable_delivery: false
+            stream_options:
+              ssl:
+                    verify_peer: false
+                    verify_peer_name: false
+                    allow_self_signed: true
